@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #181818;
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+.avatar {
+    width: 250px;
+    border-radius:28px;
+    box-shadow:4px 4px 14px rgba(0,0,0,.25,);
+}
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color:rgb(221, 221, 221);
+    margin: 0;
+}
+.info-text h4{
+    margin-bottom: 10px;
+}
+.border h2{
+    margin-bottom: 10px;
+}
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+@media (max-width: 673px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+.info-text {
+    margin-left: 40px;
+}
+
+.border {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.bg-hobby {
+    background: #2424247a;
+}
+
+.bg-experience {
+    background: #2424247a;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+a:active {
+    color: rgb(0, 0, 0);
+}
+
+.btn {
+    background: #1f1f1f;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+.btn:hover {
+    opacity: .5;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color:aqua
+}
+
+.form h2{
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f 
+}
+
+.form-row{
+    margin-bottom: 10px;
+    display:flex
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom:  1px solid aqua;
+    color: #ffffff;
+    padding:  15px 0 10px;
+    font-family: inherit;
+    outline: none
+}
+
+@media (max-width: 673px) {
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
